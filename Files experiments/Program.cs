@@ -36,7 +36,7 @@ namespace Files_experiments
                 string theShortestWord = "";
                 for (int i = 0;i < stringArray.Length; i++)
                 {
-                    if (counterMin >= stringArray[i].Length) // WHAT THE FUCK?
+                    if (counterMin >= stringArray[i].Length) // WHAT THE FUCK? Кароч смотри stringArray[0].Length = 3 тк первое слово red.тк counterMin = stringArray[0].Length => равен 3.Значит в if counterMin >= i0 значит код внутри if должен выполняться а выполняется else 
                     {
                         theShortestWord = stringArray[i];
                         counterMin = stringArray[i].Length;
